@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="117.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_class.MainController">
+   <children>
+      <Text layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" />
+      <TextField fx:id="senha" layoutX="65.0" layoutY="26.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="entrar" layoutX="91.0" layoutY="59.0" mnemonicParsing="false" onAction="#onbtnEntrar" text="Entrar" />
+      <Label fx:id="resul" alignment="CENTER" layoutX="15.0" layoutY="86.0" prefHeight="25.0" prefWidth="212.0" />
+   </children>
+</AnchorPane>
